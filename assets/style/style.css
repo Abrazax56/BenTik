@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Josefin+Sans:wght@200;300;400;500;600;700;800;900;1000&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Noto+Sans+Indic+Siyaq+Numbers&family=Outfit:wght@200;300;400;500;600;700;800;900;1000&family=Poppins&display=swap');
+html {
+  font-family: 'Outfit', Sans-Serif;
+  font-size: 10px;
+}
+body {
+  background-color: rgb(19, 19, 19);
+}
+.header {
+  width: min(100%, 950px);
+}
+.title {
+  font-size: 3rem;
+  color: rgb(0, 160, 255);
+  font-weight: 700;
+  border-bottom: 2px solid rgb(0, 160, 255);
+  text-shadow: 0 0 1rem rgba(0, 160, 255, .4);
+}
+.introduction {
+  width: min(100%, 650px);
+}
+.introduction-tense {
+  font-size: 1.5rem;
+  color: #999;
+  font-family: 'Outfit', Sans-Serif;
+}
+.brandz {
+  font-weight: 600;
+  color: rgb(0, 160, 255);
+}
+.downloader {
+  width: min(100%, 650px);
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 1rem rgba(80, 80, 80, .4);
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 2rem;
+}
+form {
+  font-family: 'Outfit', Sans-Serif;
+  width: 100%;
+}
+.label {
+  color: rgb(0, 160, 255);
+  font-size: 1.25rem;
+}
+.form-control {
+  background-color: rgb(19, 19, 19);
+  border: 1px solid rgb(0, 160, 255);
+  box-shadow: none;
+  color: #999;
+}
+.form-control:focus, .form-control:active {
+  background-color: rgb(19, 19, 19);
+  border: 1px solid rgb(0, 160, 255);
+  box-shadow: none;
+  color: #999;
+}
+.form-control::placeholder {
+  color: #666;
+}
+.btn {
+  width: 100%;
+  background-color: rgb(0, 160, 255);
+}
+.btn:active, .btn:focus, .btn:hover {
+  background-color: rgb(0, 160, 255);
+}
+.button {
+  width: 100%;
+  background-color: rgb(0, 160, 255);
+  opacity: 1;
+}
+.button:active, .button:focus, .button:hover, .button:disabled {
+  background-color: rgb(0, 160, 255);
+  outline: none;
+}
+.link-dl {
+  background-color: rgb(0, 160, 255);
+  color: black;
+  text-decoration: none;
+  border-radius: .5rem;
+  font-family: 'Outfit', Sans-Serif;
+}
+.title-dl {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.sub-dl {
+  margin-top: -.5rem;
+}
+.foot {
+  color: white;
+}
